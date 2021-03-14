@@ -7,8 +7,20 @@
 
 import Foundation
 
+// MARK: - Queue
+
+//example of Leveraging arrays
+var queue = QueueArray<String>()
+queue.enqueue("Ray")
+queue.enqueue("Brian")
+queue.enqueue("Eric")
+queue.dequeue()
+print(queue)
+queue.peek
+
 
 // MARK: - Stack
+
 // example of Using a stack
 //var stack = Stack<Int>()
 //stack.push(1)
@@ -32,14 +44,9 @@ import Foundation
 
 
 // example of Initailizing a stack from an array literal
-var stack: Stack = [1.0, 2.0, 3.0, 4.0]
-print(stack)
-stack.pop()
-
-
-
-
-
+//var stack: Stack = [1.0, 2.0, 3.0, 4.0]
+//print(stack)
+//stack.pop()
 
 
 // MARK: - Linked List

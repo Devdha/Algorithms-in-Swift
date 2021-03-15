@@ -9,14 +9,20 @@ import Foundation
 
 // MARK: - Queue
 
-//example of Leveraging arrays
-var queue = QueueArray<String>()
-queue.enqueue("Ray")
-queue.enqueue("Brian")
-queue.enqueue("Eric")
-queue.dequeue()
-print(queue)
-queue.peek
+
+
+
+// example of DoublyLinkedList
+//DoublyLinkedList 구현 필요
+
+// example of Leveraging arrays
+//var queue = QueueArray<String>()
+//queue.enqueue("Ray")
+//queue.enqueue("Brian")
+//queue.enqueue("Eric")
+//queue.dequeue()
+//print(queue)
+//queue.peek
 
 
 // MARK: - Stack

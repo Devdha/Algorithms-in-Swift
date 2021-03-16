@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BC75250D25FCF47000E9CD08 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75250C25FCF47000E9CD08 /* Stack.swift */; };
+		BC83D27026006EC9004875B9 /* QueueV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC83D26F26006EC9004875B9 /* QueueV2.swift */; };
+		BC83D27426007BB4004875B9 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC83D27326007BB4004875B9 /* Deque.swift */; };
+		BC83D27826007E1F004875B9 /* DequeV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC83D27726007E1F004875B9 /* DequeV2.swift */; };
 		BC9FF31F25FA531200F5712D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9FF31E25FA531200F5712D /* main.swift */; };
 		BC9FF32725FA581700F5712D /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9FF32625FA581700F5712D /* Node.swift */; };
 		BC9FF32A25FA5AF600F5712D /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9FF32925FA5AF600F5712D /* LinkedList.swift */; };
@@ -29,6 +32,9 @@
 
 /* Begin PBXFileReference section */
 		BC75250C25FCF47000E9CD08 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		BC83D26F26006EC9004875B9 /* QueueV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueV2.swift; sourceTree = "<group>"; };
+		BC83D27326007BB4004875B9 /* Deque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deque.swift; sourceTree = "<group>"; };
+		BC83D27726007E1F004875B9 /* DequeV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequeV2.swift; sourceTree = "<group>"; };
 		BC9FF31B25FA531200F5712D /* AlgorithmInSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmInSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9FF31E25FA531200F5712D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BC9FF32625FA581700F5712D /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
@@ -48,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC83D27226007B64004875B9 /* Deque */ = {
+			isa = PBXGroup;
+			children = (
+				BC83D27326007BB4004875B9 /* Deque.swift */,
+				BC83D27726007E1F004875B9 /* DequeV2.swift */,
+			);
+			path = Deque;
+			sourceTree = "<group>";
+		};
 		BC9FF31225FA531200F5712D = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				BC9FF31E25FA531200F5712D /* main.swift */,
+				BC83D27226007B64004875B9 /* Deque */,
 				BCBA7E5625FE562A00EBDCC4 /* Queue */,
 				BCBA7E5825FE563300EBDCC4 /* Stack */,
 				BCBA7E5A25FE563900EBDCC4 /* Linked List */,
@@ -80,6 +96,7 @@
 			children = (
 				BCBA7E5325FE550C00EBDCC4 /* Queue.swift */,
 				BCBA7E5C25FE565500EBDCC4 /* QueueArray.swift */,
+				BC83D26F26006EC9004875B9 /* QueueV2.swift */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -160,8 +177,11 @@
 			files = (
 				BCBA7E5425FE550C00EBDCC4 /* Queue.swift in Sources */,
 				BC75250D25FCF47000E9CD08 /* Stack.swift in Sources */,
+				BC83D27426007BB4004875B9 /* Deque.swift in Sources */,
 				BC9FF32A25FA5AF600F5712D /* LinkedList.swift in Sources */,
+				BC83D27826007E1F004875B9 /* DequeV2.swift in Sources */,
 				BCBA7E5D25FE565500EBDCC4 /* QueueArray.swift in Sources */,
+				BC83D27026006EC9004875B9 /* QueueV2.swift in Sources */,
 				BC9FF31F25FA531200F5712D /* main.swift in Sources */,
 				BC9FF32725FA581700F5712D /* Node.swift in Sources */,
 			);

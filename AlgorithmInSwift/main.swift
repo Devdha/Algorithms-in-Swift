@@ -7,13 +7,42 @@
 
 import Foundation
 
+// MARK: - Deque(Deck)
+
+var deque = Deque<Int>()
+deque.enqueue(1)
+deque.enqueue(2)
+deque.enqueue(3)
+deque.enqueue(4)
+
+print(deque.dequeue()!)     // 1
+print(deque.dequeueBack()!) // 4
+
+deque.enqueueFront(5)
+print(deque.dequeue()!)     // 5
+
+
+
+
 // MARK: - Queue
 
-
-
-
-// example of DoublyLinkedList
-//DoublyLinkedList 구현 필요
+// Efficient QueueV2
+//var q = QueueV2<String>()
+//print(q)            // []
+//q.enqueue("Ada")
+//q.enqueue("Steve")
+//q.enqueue("Tim")
+//print(q)            // [Optional("Ada"), Optional("Steve"), Optional("Tim")]
+//print(q.count)      // 3
+//print(q.dequeue()!) // Ada
+//print(q)            // [nil, Optional("Steve"), Optional("Tim")]
+//print(q.count)      // 2
+//print(q.dequeue()!) // Steve
+//print(q)            // [nil, nil, Optional("Tim")]
+//print(q.count)      // 1
+//q.enqueue("Grace")
+//print(q)            // [nil, nil, Optional("Tim"), Optional("Grace")]
+//print(q.count)      // 2
 
 // example of Leveraging arrays
 //var queue = QueueArray<String>()

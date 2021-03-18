@@ -7,16 +7,29 @@
 
 import Foundation
 
+// MARK: - Boyer-Moore String Search
+
+let string = "Hello, World"
+print(string.index(of: "World")!)
+print(string.index(ofV2: "World")!)
+
+
+// MARK: - Merge Sort
+
+//let array = [2, 1, 5, 4, 9]
+//print(mergeSortBottomUp(array, <))
+
+
 // MARK: - Binary Search
 
-let numbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67]
-
-if let key = binarySearch(numbers, key: 13, range: 0..<numbers.count) {
-    print(key)
-}
-if let key2 = binarySearchV2(numbers, key: 13) {
-    print(key2)
-}
+//let numbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67]
+//
+//if let key = binarySearch(numbers, key: 13, range: 0..<numbers.count) {
+//    print(key)
+//}
+//if let key2 = binarySearchV2(numbers, key: 13) {
+//    print(key2)
+//}
 
 // MARK: - Insertion sort
 

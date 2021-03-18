@@ -11,6 +11,10 @@
 		BC83D27026006EC9004875B9 /* QueueV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC83D26F26006EC9004875B9 /* QueueV2.swift */; };
 		BC83D27426007BB4004875B9 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC83D27326007BB4004875B9 /* Deque.swift */; };
 		BC83D27826007E1F004875B9 /* DequeV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC83D27726007E1F004875B9 /* DequeV2.swift */; };
+		BC9D71B52603401300486992 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D71B42603401300486992 /* MergeSort.swift */; };
+		BC9D71B826034B9600486992 /* MergeSortBottomUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D71B726034B9600486992 /* MergeSortBottomUp.swift */; };
+		BC9D71BC26038DC100486992 /* BoyerMoore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D71BB26038DC100486992 /* BoyerMoore.swift */; };
+		BC9D71C1260397B400486992 /* BoyerMooreHorspool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D71C0260397B400486992 /* BoyerMooreHorspool.swift */; };
 		BC9FF31F25FA531200F5712D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9FF31E25FA531200F5712D /* main.swift */; };
 		BC9FF32725FA581700F5712D /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9FF32625FA581700F5712D /* Node.swift */; };
 		BC9FF32A25FA5AF600F5712D /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9FF32925FA5AF600F5712D /* LinkedList.swift */; };
@@ -40,6 +44,10 @@
 		BC83D26F26006EC9004875B9 /* QueueV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueV2.swift; sourceTree = "<group>"; };
 		BC83D27326007BB4004875B9 /* Deque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deque.swift; sourceTree = "<group>"; };
 		BC83D27726007E1F004875B9 /* DequeV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequeV2.swift; sourceTree = "<group>"; };
+		BC9D71B42603401300486992 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		BC9D71B726034B9600486992 /* MergeSortBottomUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortBottomUp.swift; sourceTree = "<group>"; };
+		BC9D71BB26038DC100486992 /* BoyerMoore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoyerMoore.swift; sourceTree = "<group>"; };
+		BC9D71C0260397B400486992 /* BoyerMooreHorspool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoyerMooreHorspool.swift; sourceTree = "<group>"; };
 		BC9FF31B25FA531200F5712D /* AlgorithmInSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmInSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9FF31E25FA531200F5712D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BC9FF32625FA581700F5712D /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
@@ -73,6 +81,24 @@
 			path = Deque;
 			sourceTree = "<group>";
 		};
+		BC9D71B326033FD600486992 /* Merge Sort */ = {
+			isa = PBXGroup;
+			children = (
+				BC9D71B42603401300486992 /* MergeSort.swift */,
+				BC9D71B726034B9600486992 /* MergeSortBottomUp.swift */,
+			);
+			path = "Merge Sort";
+			sourceTree = "<group>";
+		};
+		BC9D71BA26038D9E00486992 /* Boyer-Moore String Search */ = {
+			isa = PBXGroup;
+			children = (
+				BC9D71BB26038DC100486992 /* BoyerMoore.swift */,
+				BC9D71C0260397B400486992 /* BoyerMooreHorspool.swift */,
+			);
+			path = "Boyer-Moore String Search";
+			sourceTree = "<group>";
+		};
 		BC9FF31225FA531200F5712D = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				BC9FF31E25FA531200F5712D /* main.swift */,
+				BC9D71BA26038D9E00486992 /* Boyer-Moore String Search */,
+				BC9D71B326033FD600486992 /* Merge Sort */,
 				BCAC83FB260243BF00F6A7FE /* Binary Search */,
 				BCAC83F0260239C200F6A7FE /* Insertion Sort */,
 				BC83D27226007B64004875B9 /* Deque */,
@@ -206,16 +234,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC9D71C1260397B400486992 /* BoyerMooreHorspool.swift in Sources */,
 				BCAC840026024A3300F6A7FE /* BinarySearchV2.swift in Sources */,
 				BCBA7E5425FE550C00EBDCC4 /* Queue.swift in Sources */,
 				BCAC83FD2602454800F6A7FE /* BinarySearch.swift in Sources */,
 				BCAC83F226023C3C00F6A7FE /* InsertionSort.swift in Sources */,
+				BC9D71B826034B9600486992 /* MergeSortBottomUp.swift in Sources */,
 				BC75250D25FCF47000E9CD08 /* Stack.swift in Sources */,
 				BC83D27426007BB4004875B9 /* Deque.swift in Sources */,
 				BCAC83F92602415300F6A7FE /* InsertionSortV3.swift in Sources */,
 				BC9FF32A25FA5AF600F5712D /* LinkedList.swift in Sources */,
 				BC83D27826007E1F004875B9 /* DequeV2.swift in Sources */,
+				BC9D71B52603401300486992 /* MergeSort.swift in Sources */,
 				BCAC83F626023FA200F6A7FE /* InsetionSortV2.swift in Sources */,
+				BC9D71BC26038DC100486992 /* BoyerMoore.swift in Sources */,
 				BCBA7E5D25FE565500EBDCC4 /* QueueArray.swift in Sources */,
 				BC83D27026006EC9004875B9 /* QueueV2.swift in Sources */,
 				BC9FF31F25FA531200F5712D /* main.swift in Sources */,

@@ -7,12 +7,38 @@
 
 import Foundation
 
+// MARK: - Binary Search Tree
+
+let tree = BinarySearchTree<Int>(value: 7)
+tree.insert(value: 2)
+tree.insert(value: 5)
+tree.insert(value: 10)
+tree.insert(value: 9)
+tree.insert(value: 1)
+print(tree)
+
+let tree2 = BinarySearchTree<Int>(array: [7, 2, 5, 10, 9, 1])
+print(tree2)
+
+print(tree.search(5))
+print(tree.search(2))
+print(tree.search(6))
+
+print(tree.searchInLoop(2))
+print(tree.searchInLoop(3))
+print(tree.searchInLoop(10))
+
+tree.traverseInOrder { print($0) }
+tree.traversPreOrder { print($0) }
+tree.traversPostOrder { print($0) }
+
+print(tree.toArray())
+
 // MARK: - Boyer-Moore String Search
 
-let string = "Hello, World"
-print(string.index(of: "World")!)
-print(string.index(ofV2: "World")!)
-
+//let string = "Hello, World"
+//print(string.index(of: "World")!)
+//print(string.index(ofV2: "World")!)
 
 // MARK: - Merge Sort
 

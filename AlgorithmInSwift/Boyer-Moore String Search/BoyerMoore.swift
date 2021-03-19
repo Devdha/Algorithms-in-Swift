@@ -28,7 +28,7 @@ extension String {
         // at the first character in the source string.
         var i = index(startIndex, offsetBy: patternLength - 1)
         
-        // This is a helper function that steps backwars through both strings
+        // This is a helper function that steps backwards through both strings
         // until we find a character that doens't match, or until we've reached
         // the beginning of the pattern.
         func backwards() -> Index? {

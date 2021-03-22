@@ -7,32 +7,47 @@
 
 import Foundation
 
+// MARK: - Count Occurrences
+
+let a = [0, 1, 1, 3, 3, 3, 3, 6, 8, 10, 11, 11]
+
+print(countOccurences(of: 3, in: a))
+
+
+// MARK: - Linear Search
+
+//let array = [1, 2, 3]
+//
+//if let number: Int = linearSearch(array, 2) {
+//    print(number)
+//}
+
 // MARK: - Binary Search Tree
 
-let tree = BinarySearchTree<Int>(value: 7)
-tree.insert(value: 2)
-tree.insert(value: 5)
-tree.insert(value: 10)
-tree.insert(value: 9)
-tree.insert(value: 1)
-print(tree)
-
-let tree2 = BinarySearchTree<Int>(array: [7, 2, 5, 10, 9, 1])
-print(tree2)
-
-print(tree.search(5))
-print(tree.search(2))
-print(tree.search(6))
-
-print(tree.searchInLoop(2))
-print(tree.searchInLoop(3))
-print(tree.searchInLoop(10))
-
-tree.traverseInOrder { print($0) }
-tree.traversPreOrder { print($0) }
-tree.traversPostOrder { print($0) }
-
-print(tree.toArray())
+//let tree = BinarySearchTree<Int>(value: 7)
+//tree.insert(value: 2)
+//tree.insert(value: 5)
+//tree.insert(value: 10)
+//tree.insert(value: 9)
+//tree.insert(value: 1)
+//print(tree)
+//
+//let tree2 = BinarySearchTree<Int>(array: [7, 2, 5, 10, 9, 1])
+//print(tree2)
+//
+//print(tree.search(5))
+//print(tree.search(2))
+//print(tree.search(6))
+//
+//print(tree.searchInLoop(2))
+//print(tree.searchInLoop(3))
+//print(tree.searchInLoop(10))
+//
+//tree.traverseInOrder { print($0) }
+//tree.traversPreOrder { print($0) }
+//tree.traversPostOrder { print($0) }
+//
+//print(tree.toArray())
 
 // MARK: - Boyer-Moore String Search
 

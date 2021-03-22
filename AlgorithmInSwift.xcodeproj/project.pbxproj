@@ -18,6 +18,8 @@
 		BC9FF31F25FA531200F5712D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9FF31E25FA531200F5712D /* main.swift */; };
 		BC9FF32725FA581700F5712D /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9FF32625FA581700F5712D /* Node.swift */; };
 		BC9FF32A25FA5AF600F5712D /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9FF32925FA5AF600F5712D /* LinkedList.swift */; };
+		BCA1971D26089B2100A0AAF6 /* LinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1971C26089B2100A0AAF6 /* LinearSearch.swift */; };
+		BCA1972126089F8000A0AAF6 /* CountOccurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1972026089F8000A0AAF6 /* CountOccurrences.swift */; };
 		BCAAB76726049EC80080F080 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAB76626049EC80080F080 /* BinarySearchTree.swift */; };
 		BCAC83F226023C3C00F6A7FE /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC83F126023C3C00F6A7FE /* InsertionSort.swift */; };
 		BCAC83F626023FA200F6A7FE /* InsetionSortV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC83F526023FA200F6A7FE /* InsetionSortV2.swift */; };
@@ -53,6 +55,8 @@
 		BC9FF31E25FA531200F5712D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BC9FF32625FA581700F5712D /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		BC9FF32925FA5AF600F5712D /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		BCA1971C26089B2100A0AAF6 /* LinearSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearSearch.swift; sourceTree = "<group>"; };
+		BCA1972026089F8000A0AAF6 /* CountOccurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountOccurrences.swift; sourceTree = "<group>"; };
 		BCAAB76626049EC80080F080 /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
 		BCAC83F126023C3C00F6A7FE /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		BCAC83F526023FA200F6A7FE /* InsetionSortV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetionSortV2.swift; sourceTree = "<group>"; };
@@ -120,6 +124,8 @@
 		BC9FF31D25FA531200F5712D /* AlgorithmInSwift */ = {
 			isa = PBXGroup;
 			children = (
+				BCA197232608A0CD00A0AAF6 /* Count Occurences */,
+				BCA1971B26089B0300A0AAF6 /* Linear Search */,
 				BCAAB76526049EB40080F080 /* Binary Search Tree */,
 				BC9FF31E25FA531200F5712D /* main.swift */,
 				BC9D71BA26038D9E00486992 /* Boyer-Moore String Search */,
@@ -132,6 +138,22 @@
 				BCBA7E5A25FE563900EBDCC4 /* Linked List */,
 			);
 			path = AlgorithmInSwift;
+			sourceTree = "<group>";
+		};
+		BCA1971B26089B0300A0AAF6 /* Linear Search */ = {
+			isa = PBXGroup;
+			children = (
+				BCA1971C26089B2100A0AAF6 /* LinearSearch.swift */,
+			);
+			path = "Linear Search";
+			sourceTree = "<group>";
+		};
+		BCA197232608A0CD00A0AAF6 /* Count Occurences */ = {
+			isa = PBXGroup;
+			children = (
+				BCA1972026089F8000A0AAF6 /* CountOccurrences.swift */,
+			);
+			path = "Count Occurences";
 			sourceTree = "<group>";
 		};
 		BCAAB76526049EB40080F080 /* Binary Search Tree */ = {
@@ -247,6 +269,7 @@
 			files = (
 				BC9D71C1260397B400486992 /* BoyerMooreHorspool.swift in Sources */,
 				BCAC840026024A3300F6A7FE /* BinarySearchV2.swift in Sources */,
+				BCA1971D26089B2100A0AAF6 /* LinearSearch.swift in Sources */,
 				BCAAB76726049EC80080F080 /* BinarySearchTree.swift in Sources */,
 				BCBA7E5425FE550C00EBDCC4 /* Queue.swift in Sources */,
 				BCAC83FD2602454800F6A7FE /* BinarySearch.swift in Sources */,
@@ -262,6 +285,7 @@
 				BC9D71BC26038DC100486992 /* BoyerMoore.swift in Sources */,
 				BCBA7E5D25FE565500EBDCC4 /* QueueArray.swift in Sources */,
 				BC83D27026006EC9004875B9 /* QueueV2.swift in Sources */,
+				BCA1972126089F8000A0AAF6 /* CountOccurrences.swift in Sources */,
 				BC9FF31F25FA531200F5712D /* main.swift in Sources */,
 				BC9FF32725FA581700F5712D /* Node.swift in Sources */,
 			);

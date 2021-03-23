@@ -28,6 +28,11 @@
 		BCAC840026024A3300F6A7FE /* BinarySearchV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC83FF26024A3300F6A7FE /* BinarySearchV2.swift */; };
 		BCBA7E5425FE550C00EBDCC4 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA7E5325FE550C00EBDCC4 /* Queue.swift */; };
 		BCBA7E5D25FE565500EBDCC4 /* QueueArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA7E5C25FE565500EBDCC4 /* QueueArray.swift */; };
+		BCEB01E22609C5F3005484B7 /* Minimum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEB01E12609C5F3005484B7 /* Minimum.swift */; };
+		BCEB01E62609C772005484B7 /* Maximum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEB01E52609C772005484B7 /* Maximum.swift */; };
+		BCEB01E92609CB7C005484B7 /* MinimumMaximum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEB01E82609CB7C005484B7 /* MinimumMaximum.swift */; };
+		BCEB01ED2609CE98005484B7 /* KthLargest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEB01EC2609CE98005484B7 /* KthLargest.swift */; };
+		BCEB01F12609E06B005484B7 /* RandomizedSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEB01F02609E06B005484B7 /* RandomizedSelect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +70,11 @@
 		BCAC83FF26024A3300F6A7FE /* BinarySearchV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchV2.swift; sourceTree = "<group>"; };
 		BCBA7E5325FE550C00EBDCC4 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		BCBA7E5C25FE565500EBDCC4 /* QueueArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueArray.swift; sourceTree = "<group>"; };
+		BCEB01E12609C5F3005484B7 /* Minimum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minimum.swift; sourceTree = "<group>"; };
+		BCEB01E52609C772005484B7 /* Maximum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maximum.swift; sourceTree = "<group>"; };
+		BCEB01E82609CB7C005484B7 /* MinimumMaximum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumMaximum.swift; sourceTree = "<group>"; };
+		BCEB01EC2609CE98005484B7 /* KthLargest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargest.swift; sourceTree = "<group>"; };
+		BCEB01F02609E06B005484B7 /* RandomizedSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomizedSelect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +134,8 @@
 		BC9FF31D25FA531200F5712D /* AlgorithmInSwift */ = {
 			isa = PBXGroup;
 			children = (
+				BCEB01EB2609CE79005484B7 /* kth Largest */,
+				BCEB01E02609C5B6005484B7 /* Set MinMax */,
 				BCA197232608A0CD00A0AAF6 /* Count Occurences */,
 				BCA1971B26089B0300A0AAF6 /* Linear Search */,
 				BCAAB76526049EB40080F080 /* Binary Search Tree */,
@@ -210,6 +222,25 @@
 			path = "Linked List";
 			sourceTree = "<group>";
 		};
+		BCEB01E02609C5B6005484B7 /* Set MinMax */ = {
+			isa = PBXGroup;
+			children = (
+				BCEB01E12609C5F3005484B7 /* Minimum.swift */,
+				BCEB01E52609C772005484B7 /* Maximum.swift */,
+				BCEB01E82609CB7C005484B7 /* MinimumMaximum.swift */,
+			);
+			path = "Set MinMax";
+			sourceTree = "<group>";
+		};
+		BCEB01EB2609CE79005484B7 /* kth Largest */ = {
+			isa = PBXGroup;
+			children = (
+				BCEB01EC2609CE98005484B7 /* KthLargest.swift */,
+				BCEB01F02609E06B005484B7 /* RandomizedSelect.swift */,
+			);
+			path = "kth Largest";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -267,20 +298,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCEB01ED2609CE98005484B7 /* KthLargest.swift in Sources */,
 				BC9D71C1260397B400486992 /* BoyerMooreHorspool.swift in Sources */,
+				BCEB01F12609E06B005484B7 /* RandomizedSelect.swift in Sources */,
 				BCAC840026024A3300F6A7FE /* BinarySearchV2.swift in Sources */,
+				BCEB01E22609C5F3005484B7 /* Minimum.swift in Sources */,
 				BCA1971D26089B2100A0AAF6 /* LinearSearch.swift in Sources */,
 				BCAAB76726049EC80080F080 /* BinarySearchTree.swift in Sources */,
 				BCBA7E5425FE550C00EBDCC4 /* Queue.swift in Sources */,
 				BCAC83FD2602454800F6A7FE /* BinarySearch.swift in Sources */,
 				BCAC83F226023C3C00F6A7FE /* InsertionSort.swift in Sources */,
 				BC9D71B826034B9600486992 /* MergeSortBottomUp.swift in Sources */,
+				BCEB01E92609CB7C005484B7 /* MinimumMaximum.swift in Sources */,
 				BC75250D25FCF47000E9CD08 /* Stack.swift in Sources */,
 				BC83D27426007BB4004875B9 /* Deque.swift in Sources */,
 				BCAC83F92602415300F6A7FE /* InsertionSortV3.swift in Sources */,
 				BC9FF32A25FA5AF600F5712D /* LinkedList.swift in Sources */,
 				BC83D27826007E1F004875B9 /* DequeV2.swift in Sources */,
 				BC9D71B52603401300486992 /* MergeSort.swift in Sources */,
+				BCEB01E62609C772005484B7 /* Maximum.swift in Sources */,
 				BCAC83F626023FA200F6A7FE /* InsetionSortV2.swift in Sources */,
 				BC9D71BC26038DC100486992 /* BoyerMoore.swift in Sources */,
 				BCBA7E5D25FE565500EBDCC4 /* QueueArray.swift in Sources */,

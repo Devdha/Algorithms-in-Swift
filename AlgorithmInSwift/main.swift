@@ -7,11 +7,33 @@
 
 import Foundation
 
+// MARK: - k-th Largest
+
+let array = [7, 92, 23, 9, -1, 0, 11, 6]
+print(kthLargest(a: array, k: 4))   // 9
+
+print(randomizedSelect(array, order: 4))    // 9
+
+// MARK: - Set Minimum, Maximum
+
+//let array = [8, 3, 9, 4, 6]
+//
+//print(minimum(array))   // 3
+//print(maximum(array))   // 9
+//
+//// In the Swift standard library
+//print(array.min())  // 3
+//print(array.max())  // 9
+//
+//let result = minimumMaximum(array)
+//print(result?.minimum)  // 3
+//print(result?.maximum)  // 9
+
 // MARK: - Count Occurrences
 
-let a = [0, 1, 1, 3, 3, 3, 3, 6, 8, 10, 11, 11]
-
-print(countOccurences(of: 3, in: a))
+//let a = [0, 1, 1, 3, 3, 3, 3, 6, 8, 10, 11, 11]
+//
+//print(countOccurences(of: 3, in: a))
 
 
 // MARK: - Linear Search

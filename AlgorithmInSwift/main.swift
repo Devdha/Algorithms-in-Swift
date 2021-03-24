@@ -7,12 +7,28 @@
 
 import Foundation
 
+// MARK: - Quicksort
+
+var list = [10, 0, 3, 9, 2, 14, 8, 27, 1, 5, 8, -1, 26]
+print(quicksort(list))
+
+// Lomuto's partitioning scheme
+let p = partitionLomuto(&list, low: 0, high: list.count - 1)
+print(list)
+
+// MARK: - Selection Sampling
+
+//let array = [1, 2, 3, 4, 5, 6]
+//
+//print(select(from: array, count: 3))
+//print(reservoirSample(from: array, count: 3))
+
 // MARK: - k-th Largest
 
-let array = [7, 92, 23, 9, -1, 0, 11, 6]
-print(kthLargest(a: array, k: 4))   // 9
-
-print(randomizedSelect(array, order: 4))    // 9
+//let array = [7, 92, 23, 9, -1, 0, 11, 6]
+//print(kthLargest(a: array, k: 4))   // 9
+//
+//print(randomizedSelect(array, order: 4))    // 9
 
 // MARK: - Set Minimum, Maximum
 

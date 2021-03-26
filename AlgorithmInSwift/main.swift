@@ -9,12 +9,26 @@ import Foundation
 
 // MARK: - Quicksort
 
-var list = [10, 0, 3, 9, 2, 14, 8, 27, 1, 5, 8, -1, 26]
+var list = [ 10, 0, 3, 9, 2, 14, 26, 27, 1, 5, 8, -1, 8 ]
 print(quicksort(list))
 
-// Lomuto's partitioning scheme
+// Lomuto's scheme
 let p = partitionLomuto(&list, low: 0, high: list.count - 1)
 print(list)
+quicksortLomuto(&list, low: 0, high: list.count - 1)
+print(list)
+
+// Hoare's scheme
+var list2 = [ 8, 0, 3, 9, 2, 14, 10, 27, 1, 5, 8, -1, 26 ]
+let h = partitionHoare(&list2, low: 0, high: list2.count - 1)
+print(list2)
+
+// Dutch Flag scheme
+var list3 = [10, 0, 3, 9, 2, 14, 8, 27, 1, 5, 8, -1, 26]
+partitionDutchFlag(&list3, low: 0, high: list3.count - 1, pivotIndex: 10)
+print(list3)
+quicksortDutchFlag(&list3, low: 0, high: list3.count - 1)
+print(list3)
 
 // MARK: - Selection Sampling
 

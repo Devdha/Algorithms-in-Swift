@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC0A69DE260B554B00A31281 /* SelectionSampling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0A69DD260B554B00A31281 /* SelectionSampling.swift */; };
+		BC0A69E2260B581600A31281 /* ReservoirSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0A69E1260B581600A31281 /* ReservoirSample.swift */; };
+		BC0A69E7260B6B9000A31281 /* Quicksort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0A69E6260B6B9000A31281 /* Quicksort.swift */; };
+		BC0A69EB260B6F4C00A31281 /* Lomuto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0A69EA260B6F4C00A31281 /* Lomuto.swift */; };
+		BC0A69EE260C9DBB00A31281 /* Hoare.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0A69ED260C9DBB00A31281 /* Hoare.swift */; };
+		BC0A69F1260CC5B300A31281 /* QuicksortRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0A69F0260CC5B300A31281 /* QuicksortRandom.swift */; };
+		BC0A69F4260CC8FA00A31281 /* DutchFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0A69F3260CC8FA00A31281 /* DutchFlag.swift */; };
+		BC0A69FC260CCF3E00A31281 /* UnionFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0A69FB260CCF3E00A31281 /* UnionFind.swift */; };
 		BC75250D25FCF47000E9CD08 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75250C25FCF47000E9CD08 /* Stack.swift */; };
 		BC83D27026006EC9004875B9 /* QueueV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC83D26F26006EC9004875B9 /* QueueV2.swift */; };
 		BC83D27426007BB4004875B9 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC83D27326007BB4004875B9 /* Deque.swift */; };
@@ -48,6 +56,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BC0A69DD260B554B00A31281 /* SelectionSampling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSampling.swift; sourceTree = "<group>"; };
+		BC0A69E1260B581600A31281 /* ReservoirSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservoirSample.swift; sourceTree = "<group>"; };
+		BC0A69E6260B6B9000A31281 /* Quicksort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quicksort.swift; sourceTree = "<group>"; };
+		BC0A69EA260B6F4C00A31281 /* Lomuto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lomuto.swift; sourceTree = "<group>"; };
+		BC0A69ED260C9DBB00A31281 /* Hoare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hoare.swift; sourceTree = "<group>"; };
+		BC0A69F0260CC5B300A31281 /* QuicksortRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuicksortRandom.swift; sourceTree = "<group>"; };
+		BC0A69F3260CC8FA00A31281 /* DutchFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutchFlag.swift; sourceTree = "<group>"; };
+		BC0A69FB260CCF3E00A31281 /* UnionFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionFind.swift; sourceTree = "<group>"; };
 		BC75250C25FCF47000E9CD08 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		BC83D26F26006EC9004875B9 /* QueueV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueV2.swift; sourceTree = "<group>"; };
 		BC83D27326007BB4004875B9 /* Deque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deque.swift; sourceTree = "<group>"; };
@@ -88,6 +104,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC0A69DC260B46E600A31281 /* Selection Sampling */ = {
+			isa = PBXGroup;
+			children = (
+				BC0A69DD260B554B00A31281 /* SelectionSampling.swift */,
+				BC0A69E1260B581600A31281 /* ReservoirSample.swift */,
+			);
+			path = "Selection Sampling";
+			sourceTree = "<group>";
+		};
+		BC0A69E4260B6B6E00A31281 /* Quicksort */ = {
+			isa = PBXGroup;
+			children = (
+				BC0A69E6260B6B9000A31281 /* Quicksort.swift */,
+				BC0A69EA260B6F4C00A31281 /* Lomuto.swift */,
+				BC0A69ED260C9DBB00A31281 /* Hoare.swift */,
+				BC0A69F3260CC8FA00A31281 /* DutchFlag.swift */,
+				BC0A69F0260CC5B300A31281 /* QuicksortRandom.swift */,
+			);
+			path = Quicksort;
+			sourceTree = "<group>";
+		};
+		BC0A69FA260CCE5200A31281 /* Union-Find */ = {
+			isa = PBXGroup;
+			children = (
+				BC0A69FB260CCF3E00A31281 /* UnionFind.swift */,
+			);
+			path = "Union-Find";
+			sourceTree = "<group>";
+		};
 		BC83D27226007B64004875B9 /* Deque */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +179,9 @@
 		BC9FF31D25FA531200F5712D /* AlgorithmInSwift */ = {
 			isa = PBXGroup;
 			children = (
+				BC0A69FA260CCE5200A31281 /* Union-Find */,
+				BC0A69E4260B6B6E00A31281 /* Quicksort */,
+				BC0A69DC260B46E600A31281 /* Selection Sampling */,
 				BCEB01EB2609CE79005484B7 /* kth Largest */,
 				BCEB01E02609C5B6005484B7 /* Set MinMax */,
 				BCA197232608A0CD00A0AAF6 /* Count Occurences */,
@@ -303,19 +351,26 @@
 				BCEB01F12609E06B005484B7 /* RandomizedSelect.swift in Sources */,
 				BCAC840026024A3300F6A7FE /* BinarySearchV2.swift in Sources */,
 				BCEB01E22609C5F3005484B7 /* Minimum.swift in Sources */,
+				BC0A69DE260B554B00A31281 /* SelectionSampling.swift in Sources */,
 				BCA1971D26089B2100A0AAF6 /* LinearSearch.swift in Sources */,
 				BCAAB76726049EC80080F080 /* BinarySearchTree.swift in Sources */,
 				BCBA7E5425FE550C00EBDCC4 /* Queue.swift in Sources */,
 				BCAC83FD2602454800F6A7FE /* BinarySearch.swift in Sources */,
+				BC0A69E7260B6B9000A31281 /* Quicksort.swift in Sources */,
 				BCAC83F226023C3C00F6A7FE /* InsertionSort.swift in Sources */,
 				BC9D71B826034B9600486992 /* MergeSortBottomUp.swift in Sources */,
+				BC0A69EE260C9DBB00A31281 /* Hoare.swift in Sources */,
 				BCEB01E92609CB7C005484B7 /* MinimumMaximum.swift in Sources */,
+				BC0A69EB260B6F4C00A31281 /* Lomuto.swift in Sources */,
 				BC75250D25FCF47000E9CD08 /* Stack.swift in Sources */,
 				BC83D27426007BB4004875B9 /* Deque.swift in Sources */,
+				BC0A69F4260CC8FA00A31281 /* DutchFlag.swift in Sources */,
 				BCAC83F92602415300F6A7FE /* InsertionSortV3.swift in Sources */,
+				BC0A69FC260CCF3E00A31281 /* UnionFind.swift in Sources */,
 				BC9FF32A25FA5AF600F5712D /* LinkedList.swift in Sources */,
 				BC83D27826007E1F004875B9 /* DequeV2.swift in Sources */,
 				BC9D71B52603401300486992 /* MergeSort.swift in Sources */,
+				BC0A69F1260CC5B300A31281 /* QuicksortRandom.swift in Sources */,
 				BCEB01E62609C772005484B7 /* Maximum.swift in Sources */,
 				BCAC83F626023FA200F6A7FE /* InsetionSortV2.swift in Sources */,
 				BC9D71BC26038DC100486992 /* BoyerMoore.swift in Sources */,
@@ -324,6 +379,7 @@
 				BCA1972126089F8000A0AAF6 /* CountOccurrences.swift in Sources */,
 				BC9FF31F25FA531200F5712D /* main.swift in Sources */,
 				BC9FF32725FA581700F5712D /* Node.swift in Sources */,
+				BC0A69E2260B581600A31281 /* ReservoirSample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

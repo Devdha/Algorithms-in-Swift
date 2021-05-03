@@ -7,28 +7,58 @@
 
 import Foundation
 
+let tree = TreeNode(15)
+
+let child1 = TreeNode(1)
+let child2 = TreeNode(17)
+let child3 = TreeNode(20)
+
+let leaf1 = TreeNode(1)
+let leaf2 = TreeNode(5)
+let leaf3 = TreeNode(0)
+let leaf4 = TreeNode(2)
+let leaf5 = TreeNode(5)
+let leaf6 = TreeNode(7)
+
+tree.add(child1)
+tree.add(child2)
+tree.add(child3)
+
+child1.add(leaf1)
+child1.add(leaf2)
+child1.add(leaf3)
+
+child2.add(leaf4)
+
+child3.add(leaf5)
+child3.add(leaf6)
+
+printEachLevel(for: tree)
+
+// MARK: - Beta Version
+
 // MARK: - Quicksort
 
-var list = [ 10, 0, 3, 9, 2, 14, 26, 27, 1, 5, 8, -1, 8 ]
-print(quicksort(list))
-
-// Lomuto's scheme
-let p = partitionLomuto(&list, low: 0, high: list.count - 1)
-print(list)
-quicksortLomuto(&list, low: 0, high: list.count - 1)
-print(list)
-
-// Hoare's scheme
-var list2 = [ 8, 0, 3, 9, 2, 14, 10, 27, 1, 5, 8, -1, 26 ]
-let h = partitionHoare(&list2, low: 0, high: list2.count - 1)
-print(list2)
-
-// Dutch Flag scheme
-var list3 = [10, 0, 3, 9, 2, 14, 8, 27, 1, 5, 8, -1, 26]
-partitionDutchFlag(&list3, low: 0, high: list3.count - 1, pivotIndex: 10)
-print(list3)
-quicksortDutchFlag(&list3, low: 0, high: list3.count - 1)
-print(list3)
+//var list = [ 10, 0, 3, 9, 2, 14, 26, 27, 1, 5, 8, -1, 8 ]
+//print(quicksort(list))
+//
+//// Lomuto's scheme
+//let p = partitionLomuto(&list, low: 0, high: list.count - 1)
+//print(list)
+//quicksortLomuto(&list, low: 0, high: list.count - 1)
+//print(list)
+//
+//// Hoare's scheme
+//var list2 = [ 8, 0, 3, 9, 2, 14, 10, 27, 1, 5, 8, -1, 26 ]
+//let h = partitionHoare(&list2, low: 0, high: list2.count - 1)
+//print(list2)
+//
+//// Dutch Flag scheme
+//var list3 = [10, 0, 3, 9, 2, 14, 8, 27, 1, 5, 8, -1, 26]
+//partitionDutchFlag(&list3, low: 0, high: list3.count - 1, pivotIndex: 10)
+//print(list3)
+//quicksortDutchFlag(&list3, low: 0, high: list3.count - 1)
+//print(list3)
 
 // MARK: - Selection Sampling
 

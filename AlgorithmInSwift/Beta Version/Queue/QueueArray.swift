@@ -9,6 +9,7 @@ import Foundation
 
 public struct QueueArray<T>: Queue {
     private var array: [T] = []
+    public var count = 0
     public init() {}
     
     public var isEmpty: Bool {
@@ -21,10 +22,12 @@ public struct QueueArray<T>: Queue {
     
     public mutating func enqueue(_ element: T) -> Bool {
         array.append(element)
+        count += 1
         return true
     }
     
     public mutating func dequeue() -> T? {
+        count -= 1
         return isEmpty ? nil : array.removeFirst()
     }
 }

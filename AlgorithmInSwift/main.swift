@@ -7,33 +7,64 @@
 
 import Foundation
 
-let tree = TreeNode(15)
+// MARK: - Graph
 
-let child1 = TreeNode(1)
-let child2 = TreeNode(17)
-let child3 = TreeNode(20)
+let graph = AdjacencyList<String>()
 
-let leaf1 = TreeNode(1)
-let leaf2 = TreeNode(5)
-let leaf3 = TreeNode(0)
-let leaf4 = TreeNode(2)
-let leaf5 = TreeNode(5)
-let leaf6 = TreeNode(7)
+let singapore = graph.createVertex(data: "Singapore")
+let tokyo = graph.createVertex(data: "Tokyo")
+let hongkong = graph.createVertex(data: "Hong Kong")
+let detroit = graph.createVertex(data: "Detroit")
+let sanFrancisco = graph.createVertex(data: "San Francisco")
+let washingtonDC = graph.createVertex(data: "Washington DC")
+let austinTexas = graph.createVertex(data: "Austin Texas")
+let seattle = graph.createVertex(data: "Seattle")
 
-tree.add(child1)
-tree.add(child2)
-tree.add(child3)
+graph.add(.undirected, from: singapore, to: hongkong, weight: 300)
+graph.add(.undirected, from: singapore, to: tokyo, weight: 500)
+graph.add(.undirected, from: hongkong, to: tokyo, weight: 250)
+graph.add(.undirected, from: tokyo, to: detroit, weight: 450)
+graph.add(.undirected, from: tokyo, to: washingtonDC, weight: 300)
+graph.add(.undirected, from: hongkong, to: sanFrancisco, weight: 600)
+graph.add(.undirected, from: detroit, to: austinTexas, weight: 50)
+graph.add(.undirected, from: austinTexas, to: washingtonDC, weight: 292)
+graph.add(.undirected, from: sanFrancisco, to: washingtonDC, weight: 337)
+graph.add(.undirected, from: washingtonDC, to: seattle, weight: 277)
+graph.add(.undirected, from: sanFrancisco, to: seattle, weight: 218)
+graph.add(.undirected, from: austinTexas, to: sanFrancisco, weight: 297)
 
-child1.add(leaf1)
-child1.add(leaf2)
-child1.add(leaf3)
+print(graph)
 
-child2.add(leaf4)
 
-child3.add(leaf5)
-child3.add(leaf6)
+// MARK: - Tree
 
-printEachLevel(for: tree)
+//let tree = TreeNode(15)
+//
+//let child1 = TreeNode(1)
+//let child2 = TreeNode(17)
+//let child3 = TreeNode(20)
+//
+//let leaf1 = TreeNode(1)
+//let leaf2 = TreeNode(5)
+//let leaf3 = TreeNode(0)
+//let leaf4 = TreeNode(2)
+//let leaf5 = TreeNode(5)
+//let leaf6 = TreeNode(7)
+//
+//tree.add(child1)
+//tree.add(child2)
+//tree.add(child3)
+//
+//child1.add(leaf1)
+//child1.add(leaf2)
+//child1.add(leaf3)
+//
+//child2.add(leaf4)
+//
+//child3.add(leaf5)
+//child3.add(leaf6)
+//
+//printEachLevel(for: tree)
 
 // MARK: - Beta Version
 

@@ -31,7 +31,7 @@ public protocol Graph {
                 to destination: Vertex<Element>) -> Double?
 }
 
-public struct Vertex<T> {
+public struct Vertex<T> {// Prints "(21, 30)"
     public let index: Int
     public let data: T
 }
@@ -41,3 +41,6 @@ public struct Edge<T> {
     public let destination: Vertex<T>
     public let weight: Double?
 }
+
+extension Vertex: Hashable where T: Hashable {}
+extension Vertex: Equatable where T: Equatable {}

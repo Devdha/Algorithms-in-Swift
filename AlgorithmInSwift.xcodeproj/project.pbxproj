@@ -29,6 +29,7 @@
 		BC9FF32A25FA5AF600F5712D /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9FF32925FA5AF600F5712D /* LinkedList.swift */; };
 		BCA1971D26089B2100A0AAF6 /* LinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1971C26089B2100A0AAF6 /* LinearSearch.swift */; };
 		BCA1972126089F8000A0AAF6 /* CountOccurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1972026089F8000A0AAF6 /* CountOccurrences.swift */; };
+		BCA519C4264146040058C8F5 /* AdjacencyMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA519C3264146040058C8F5 /* AdjacencyMatrix.swift */; };
 		BCAAB76726049EC80080F080 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAB76626049EC80080F080 /* BinarySearchTree.swift */; };
 		BCAC83F226023C3C00F6A7FE /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC83F126023C3C00F6A7FE /* InsertionSort.swift */; };
 		BCAC83F626023FA200F6A7FE /* InsetionSortV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC83F526023FA200F6A7FE /* InsetionSortV2.swift */; };
@@ -82,6 +83,7 @@
 		BC9FF32925FA5AF600F5712D /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		BCA1971C26089B2100A0AAF6 /* LinearSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearSearch.swift; sourceTree = "<group>"; };
 		BCA1972026089F8000A0AAF6 /* CountOccurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountOccurrences.swift; sourceTree = "<group>"; };
+		BCA519C3264146040058C8F5 /* AdjacencyMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyMatrix.swift; sourceTree = "<group>"; };
 		BCAAB76626049EC80080F080 /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
 		BCAC83F126023C3C00F6A7FE /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		BCAC83F526023FA200F6A7FE /* InsetionSortV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetionSortV2.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 				BC9FF31E25FA531200F5712D /* main.swift */,
 				BCB61CEE263FBB5900901C1A /* Graph.swift */,
 				BCB61CF126403B2500901C1A /* AdjacencyList.swift */,
+				BCA519C3264146040058C8F5 /* AdjacencyMatrix.swift */,
 				BC55B9FD262D5843001D86A9 /* Tree.swift */,
 			);
 			path = AlgorithmInSwift;
@@ -382,6 +385,7 @@
 				BCB61CF226403B2500901C1A /* AdjacencyList.swift in Sources */,
 				BC0A69EB260B6F4C00A31281 /* Lomuto.swift in Sources */,
 				BC75250D25FCF47000E9CD08 /* Stack.swift in Sources */,
+				BCA519C4264146040058C8F5 /* AdjacencyMatrix.swift in Sources */,
 				BC83D27426007BB4004875B9 /* Deque.swift in Sources */,
 				BC0A69F4260CC8FA00A31281 /* DutchFlag.swift in Sources */,
 				BCAC83F92602415300F6A7FE /* InsertionSortV3.swift in Sources */,
